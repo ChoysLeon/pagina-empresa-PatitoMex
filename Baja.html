@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BAJA DE PRODUCTOS</title>
+    <link rel="stylesheet" type ="text/css" href="css/estil.css">
+</head>
+<body>
+    <div class="contenedor">
+    <form  class="formulario" action="ventas.php" method="POST">
+        <h1>Bienvenid@</h1>
+        <br>
+        <H2>Ingresa los datos de la Venta</H2>
+        <br>
+        <table>
+            <tr>
+                <td>ID de Venta:</td>
+                <td>
+                    <input type="text" placeholder="ID de Venta " name="ID_Venta" required>
+                </td>
+            </tr>
+            <tr>
+                <td>ID del Producto:</td>
+                <td>
+                    <input type="text" placeholder="ID del Producto" name="ID_Producto" required>
+                </td>
+            </tr>
+            <tr>
+                <td>Fecha de Salida:</td>
+                <td>
+                    <input type="text" placeholder="Fecha de Salida" name="FechaSalida" required>
+                </td>
+            </tr>
+            <tr>
+                <td>Cantidad de producto:</td>
+                <td>
+                    <input type="text" placeholder="Cantidad de Producto" name="CantidadProducto" required>
+                </td>
+            </tr>
+            <tr>
+                <td>Costo de venta:</td>
+                <td>
+                    <input type="text" placeholder="Costo de venta" name="CostoVenta" required>
+                </td>
+            </tr>
+            <tr>
+                <td>ID del Cliente:</td>
+                <td>
+                    <input type="text" placeholder="ID del cliente" name="ID_Clientes" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input class="boton-registro" type="submit" value="GUARDAR" name="GUARDAR">
+                </td>
+            </tr>
+        </table>
+    </form>
+    </div>
+</body>
+</html>
